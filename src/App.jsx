@@ -6,10 +6,9 @@ import LineChart from './components/LineChart/LineChart.jsx';
 import BarChart from './components/BarChart/BarChart.jsx';
 import Content from './components/Content/Content.jsx';
 import DoughnutChart from './components/DoughnutChart/DoughnutChart.jsx';
-import TableComponent from './components/TableComponent/TableComponent.jsx'; 
+import TableComponent from './components/TableComponent/TableComponent.jsx';
+import jsonData from './data/data.json';
 import './App.css';
-import jsonData from './data/data.json'; 
-
 
 export const App = () => {
   const [activeTab, setActiveTab] = useState('charts');
