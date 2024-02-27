@@ -1,0 +1,19 @@
+.card {
+  display: inline-block; /* Изменено на inline-block для сохранения в ряду */
+  background-color: #efefef;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  width: 170px;
+  max-width: 200px; /* Максимальная ширина карточки */
+  height: 90px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    max-width: none;
+  }
+}

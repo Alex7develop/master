@@ -1,0 +1,147 @@
+[
+  {
+    "date": "2024-02-27",
+    "name": "Product 1",
+    "quantity": 10,
+    "size": "M",
+    "orderStatus": "Shipped",
+    "orderAmount": 100
+  },
+  {
+    "date": "2024-02-27",
+    "name": "Product 2",
+    "quantity": 5,
+    "size": "L",
+    "orderStatus": "Processing",
+    "orderAmount": 75
+  },
+  {
+    "date": "2024-02-26",
+    "name": "Product 3",
+    "quantity": 8,
+    "size": "S",
+    "orderStatus": "Delivered",
+    "orderAmount": 120
+  },
+  {
+    "date": "2024-02-26",
+    "name": "Product 4",
+    "quantity": 3,
+    "size": "XL",
+    "orderStatus": "Shipped",
+    "orderAmount": 50
+  },
+  {
+    "date": "2024-02-27",
+    "name": "Product 15",
+    "quantity": 10,
+    "size": "M",
+    "orderStatus": "Shipped",
+    "orderAmount": 100
+  },
+  {
+    "date": "2024-02-27",
+    "name": "Product 16",
+    "quantity": 5,
+    "size": "L",
+    "orderStatus": "Processing",
+    "orderAmount": 75
+  },
+  {
+    "date": "2024-02-26",
+    "name": "Product 17",
+    "quantity": 8,
+    "size": "S",
+    "orderStatus": "Delivered",
+    "orderAmount": 120
+  },
+  {
+    "date": "2024-02-26",
+    "name": "Product 18",
+    "quantity": 3,
+    "size": "XL",
+    "orderStatus": "Shipped",
+    "orderAmount": 50
+  },
+  {
+    "date": "2024-02-28",
+    "name": "Product 5",
+    "quantity": 12,
+    "size": "L",
+    "orderStatus": "Processing",
+    "orderAmount": 90
+  },
+  {
+    "date": "2024-02-28",
+    "name": "Product 6",
+    "quantity": 6,
+    "size": "S",
+    "orderStatus": "Delivered",
+    "orderAmount": 110
+  },
+  {
+    "date": "2024-02-29",
+    "name": "Product 7",
+    "quantity": 15,
+    "size": "XL",
+    "orderStatus": "Shipped",
+    "orderAmount": 130
+  },
+  {
+    "date": "2024-02-29",
+    "name": "Product 8",
+    "quantity": 4,
+    "size": "M",
+    "orderStatus": "Processing",
+    "orderAmount": 80
+  },
+
+  {
+    "date": "2024-03-05",
+    "name": "Product 9",
+    "quantity": 4,
+    "size": "L",
+    "orderStatus": "Shipped",
+    "orderAmount": 100
+  },
+  {
+    "date": "2024-03-06",
+    "name": "Product 10",
+    "quantity": 7,
+    "size": "XL",
+    "orderStatus": "Processing",
+    "orderAmount": 95
+  },
+  {
+    "date": "2024-03-06",
+    "name": "Product 11",
+    "quantity": 11,
+    "size": "M",
+    "orderStatus": "Delivered",
+    "orderAmount": 140
+  },
+  {
+    "date": "2024-03-07",
+    "name": "Product 12",
+    "quantity": 5,
+    "size": "S",
+    "orderStatus": "Shipped",
+    "orderAmount": 75
+  },
+  {
+    "date": "2024-03-07",
+    "name": "Product 13",
+    "quantity": 8,
+    "size": "L",
+    "orderStatus": "Processing",
+    "orderAmount": 130
+  },
+  {
+    "date": "2024-03-08",
+    "name": "Product 14",
+    "quantity": 9,
+    "size": "XL",
+    "orderStatus": "Delivered",
+    "orderAmount": 160
+  }
+]

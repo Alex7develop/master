@@ -1,0 +1,21 @@
+/* TableComponent.module.css */
+.table {
+  width: 80%;
+  border-collapse: collapse;
+  border: 2px solid #ddd; /* устанавливаем рамку для таблицы */
+}
+
+/* Стили для заголовков */
+.table th {
+  border: 2px solid #ddd; /* устанавливаем рамку для заголовков */
+  padding: 8px;
+  text-align: left;
+  background-color: #f2f2f2; /* устанавливаем цвет фона для заголовков */
+}
+
+/* Стили для ячеек */
+.table td {
+  border: 2px solid #ddd; /* устанавливаем рамку для ячеек */
+  padding: 8px;
+  text-align: left;
+}
