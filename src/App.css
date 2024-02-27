@@ -15,8 +15,6 @@
   gap: 1vw;
   width: 80%;
   margin: 0 auto;
-  max-height: calc(100vh - 150px); 
-  overflow-y: auto;
 }
 
 .dataCard {
