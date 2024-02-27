@@ -12,7 +12,7 @@
 .charts-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2vw;
+  gap: 1vw;
   width: 80%;
   margin: 0 auto;
   max-height: calc(100vh - 150px); 
@@ -24,6 +24,10 @@
   border-radius: 0.5em;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .revenueCard {
@@ -119,10 +123,4 @@ th {
   .tabs button {
     margin: 0 2px;
   }
-}
-.dataCard {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
 }

@@ -10,6 +10,7 @@ import TableComponent from './components/TableComponent/TableComponent.jsx';
 import './App.css';
 import jsonData from './data/data.json'; 
 
+
 export const App = () => {
   const [activeTab, setActiveTab] = useState('charts');
 
@@ -20,6 +21,17 @@ export const App = () => {
   return (
     <div className="App">
       <Header activeTab={activeTab} />
+      <div className="charts-container">
+        {activeTab === 'charts' && (
+          <>
+            <LineChart />
+            <Content />
+            <BarChart />
+            <DoughnutChart />
+          </>
+        )}
+        {activeTab === 'table' && <TableComponent data={jsonData} />}
+      </div>
       <div className="tabs">
         <button
           className={activeTab === 'charts' ? 'active' : ''}
@@ -34,15 +46,6 @@ export const App = () => {
           Sales Export
         </button>
       </div>
-      {activeTab === 'charts' && (
-        <div className="charts-container">
-          <LineChart />
-          <Content />
-          <BarChart />
-          <DoughnutChart />
-        </div>
-      )}
-      {activeTab === 'table' && <TableComponent data={jsonData}/>}
     </div>
   );
 };
