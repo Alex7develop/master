@@ -3,6 +3,9 @@ import Card from '../Card/Card';
 const Content = () => {
   return (
     <div className="dataCard revenueCard">
+      {/* <div>
+        <h1>Consupsion</h1>
+      </div> */}
       <Card
         content="liters of water were consumed within the last 55 days"
         number={504.75}
