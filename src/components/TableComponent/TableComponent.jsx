@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
-import styles from './TableComponent.module.css'; // импортируем модульные стили
+import styles from './TableComponent.module.css'; 
 
 const TableComponent = ({ data }) => {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: 'ascending' });

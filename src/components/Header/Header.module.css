@@ -8,12 +8,13 @@
   border-radius: 2px;
   margin-top: 10px;
   font-family: 'Courier New', Courier, monospace;
+  position: relative;
 }
 
 .datetime {
   font-size: 1.2rem;
   margin-top: 0.5rem;
-  margin-left: auto; /* Добавляем это свойство */
+  margin-left: auto; 
 }
 
 .header h1 {
@@ -23,13 +24,25 @@
 .header p {
   margin: 0;
 }
-.header {
-  position: relative;
-}
 
 .icon {
   position: absolute;
   right: 600px;
   top: 50%;
   transform: translateY(-50%);
+}
+@media only screen and (max-width: 1024px) {
+  .header {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    width: 95%;
+  }
+
+  .icon {
+    right: 10px;
+  }
 }

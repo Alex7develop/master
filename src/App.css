@@ -89,3 +89,32 @@ th {
 .description {
   margin-left: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .charts-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    width: 90%;
+  }
+
+  .revenueCard {
+    height: 15rem;
+  }
+
+  .chart {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .tabs {
+    position: static;
+    width: auto;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .tabs button {
+    margin: 0 2px;
+  }
+}

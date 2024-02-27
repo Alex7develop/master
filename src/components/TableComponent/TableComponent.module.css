@@ -2,20 +2,17 @@
 .table {
   width: 80%;
   border-collapse: collapse;
-  border: 2px solid #ddd; /* устанавливаем рамку для таблицы */
+  border: 2px solid #ddd;
 }
-
-/* Стили для заголовков */
 .table th {
-  border: 2px solid #ddd; /* устанавливаем рамку для заголовков */
+  border: 2px solid #ddd;
   padding: 8px;
   text-align: left;
-  background-color: #f2f2f2; /* устанавливаем цвет фона для заголовков */
+  background-color: #f2f2f2;
 }
 
-/* Стили для ячеек */
 .table td {
-  border: 2px solid #ddd; /* устанавливаем рамку для ячеек */
+  border: 2px solid #ddd;
   padding: 8px;
   text-align: left;
 }
